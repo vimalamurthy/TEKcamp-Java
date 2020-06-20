@@ -2,7 +2,7 @@ package udemy_exercises;
 
 import java.util.Scanner;
 
-public class Sorting {
+public class Sorting1 {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void printArray(int[] inputArray){
@@ -48,18 +48,14 @@ public class Sorting {
         int count= scanner.nextInt();
         int [] inputArray = new int[count];
         inputArray=getArray(inputArray);
-
         System.out.println("The Input Array is : ");
         printArray(inputArray);
-
+        //printArray(inputArray);
         reverse(inputArray);
-
         System.out.println("The Reversed Array is : ");
         printArray(inputArray);
-
-        sortArray(inputArray);
-
         System.out.println("The Sorted Array is : ");
+        sortArray(inputArray);
         printArray(inputArray);
     }
 }
