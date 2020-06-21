@@ -12,7 +12,7 @@ public class Sorting {
     }
 
     public static void reverse(int[] inputArray) {
-        //Pure function - receives an input and manipulates on it.
+        //Pure function - receives an input and manipulates on it. For a given input returns the same output each time.
         int length = inputArray.length-1;
         for (int  i = 0; i < (inputArray.length)/2 ; i++) {
             int temp = inputArray[i];

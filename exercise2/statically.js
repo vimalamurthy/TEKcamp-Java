@@ -1,5 +1,6 @@
 class Statically {
-    //fix this code, so all of the instantiation and console.logs() work.  Try not to change the signature of the class, unless absolutely necessary.
+    //fix this code, so all of the instantiation and console.logs() work.  Try not to change the signature of the class,
+     //unless absolutely necessary.
     static #glue = "Epoxy";
     jello = "Jello";
 
@@ -20,7 +21,8 @@ class Statically {
 
 }
 
-//get the below code to run correctly without errors:  Make sure you explain what you did in the the explain() method, defined in the class.  Do NOT remove the 'static' keyword from the explain() method.
+//get the below code to run correctly without errors:  Make sure you explain what you did in the the explain() method,
+//defined in the class.  Do NOT remove the 'static' keyword from the explain() method.
 
 const stats = new Statically();
 

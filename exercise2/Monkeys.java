@@ -23,8 +23,5 @@ class Monkeys {
 
         Monkey[] monkeyList = {};
         System.out.println(monkeyList);
-        
     }
-
-    
 }
