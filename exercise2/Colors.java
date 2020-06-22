@@ -15,6 +15,4 @@ public class Colors {
                 "great gatsby","feeding frenzy","black bird","widowmaker","quran","bible","torah"});
         System.out.println("This is the Colors class");
     }
-
-
 }
