@@ -1,12 +1,27 @@
 package exercise2;
 
+import java.util.Arrays;
+
 public class Colors {
 
     String[] colorful(String[] strings) {
-        // For the given strings, keep all the strings that begin with a color ("red", "yellow", "green", "blue", etc.)
-        // return an array of strings that start with a color.  discard all the other strings.  If no strings start with
-        // a color in the input array, return an empty array.
-        return new String[]{};
+        int index = 0;
+        String[] colorArray = {"blue","red","yellow","black","green"};
+        String[] retcolorArray = new String[10];
+
+
+        for (String eachword : strings) {
+            String[] wordArray = eachword.split(" ");
+            for ( String substr : wordArray) {
+                if( Arrays.asList(colorArray).contains(substr))
+                {
+                    index = index + 1;
+                    retcolorArray[index] = eachword;
+                    System.out.println(eachword);
+                }
+            }
+        }
+        return  retcolorArray;
     }
 
     public static void main(String[] args) {
